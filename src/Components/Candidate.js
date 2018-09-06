@@ -3,13 +3,13 @@ import PropTypes from 'prop-types'
 
 export class Candidate extends Component {
   static porpTypes = {
-    id: PropTypes.string
+    name: PropTypes.string
   }
   render() {
-    const { id, name, surname, statusId, hackerRankScore, creatorId, lastUserWhoUpdated, email, comments, pdfURL } = this.props
+    const { Title, id, name, surname, statusId, hackerRankScore, creatorId, lastUserWhoUpdated, email, comments, pdfURL } = this.props
 
     return(
-
+      { Title }
     )
   }
 }

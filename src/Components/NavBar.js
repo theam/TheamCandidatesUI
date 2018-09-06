@@ -16,29 +16,29 @@ export class NavBar extends Component {
           </a>
         </div>
         <div className="navbar-menu">
-          <div class="navbar-start">
+          <div className="navbar-start">
 
           </div>
-          <div class="navbar-end">
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
+          <div className="navbar-end">
+            <div className="navbar-item has-dropdown is-hoverable">
+              <a className="navbar-link">
                 Resourses
               </a>
-              <div class="navbar-dropdown is-right">
-                <a class="navbar-item">
+              <div className="navbar-dropdown is-right">
+                <a className="navbar-item">
                   Users
                 </a>
-                <hr class="navbar-divider"/>
-                <a class="navbar-item">
+                <hr className="navbar-divider"/>
+                <a className="navbar-item">
                   Candidates
                 </a>
-                <hr class="navbar-divider"/>
-                <a class="navbar-item">
+                <hr className="navbar-divider"/>
+                <a className="navbar-item">
                   Files
                 </a>
               </div>
             </div>
-            <a class="navbar-item">
+            <a className="navbar-item">
               Login
             </a>
           </div>
